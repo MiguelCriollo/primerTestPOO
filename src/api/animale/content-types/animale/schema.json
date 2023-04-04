@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "animales",
+  "info": {
+    "singularName": "animale",
+    "pluralName": "animales",
+    "displayName": "Animales"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nombre": {
+      "type": "string"
+    }
+  }
+}
