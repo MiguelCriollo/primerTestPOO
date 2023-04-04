@@ -4,15 +4,50 @@
   "info": {
     "singularName": "animale",
     "pluralName": "animales",
-    "displayName": "Animales"
+    "displayName": "Animales",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "Nombre": {
+    "name": {
       "type": "string"
+    },
+    "cientific_Name": {
+      "type": "string"
+    },
+    "weight": {
+      "type": "decimal"
+    },
+    "height": {
+      "type": "decimal"
+    },
+    "domestic_Animal": {
+      "type": "boolean"
+    },
+    "photo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "date_of_Discovery": {
+      "type": "date"
+    },
+    "habitat": {
+      "type": "string"
+    },
+    "tipo_Animal": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
     }
   }
 }
